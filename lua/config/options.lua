@@ -19,7 +19,6 @@ opt.tabstop=2
 opt.softtabstop=2
 opt.shiftwidth=2
 opt.scrolloff=8
-
 opt.conceallevel = 3
 opt.hidden = true
 opt.wrap = false
@@ -32,7 +31,6 @@ opt.ignorecase = true
 opt.smartcase = true
 opt.termguicolors = true
 opt.sidescrolloff = 8
-
 opt.showmode = false
 opt.clipboard = "unnamedplus"
 opt.splitbelow = true
@@ -46,6 +44,5 @@ opt.updatetime = 50
 opt.signcolumn = "yes"
 opt.equalalways = false
 opt.splitkeep = "screen"
-opt.shortmess = "filnxtToOFWIcC"
-
+--opt.shortmess = "filnxtToOFWIcC"
 
