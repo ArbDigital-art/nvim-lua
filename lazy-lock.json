@@ -1,0 +1,13 @@
+{
+  "catppuccin": { "branch": "main", "commit": "faf15ab0201b564b6368ffa47b56feefc92ce3f4" },
+  "lazy.nvim": { "branch": "main", "commit": "56ead98e05bb37a4ec28930a54d836d033cf00f2" },
+  "mason.nvim": { "branch": "main", "commit": "e2f7f9044ec30067bc11800a9e266664b88cda22" },
+  "neodev.nvim": { "branch": "main", "commit": "46aa467dca16cf3dfe27098042402066d2ae242d" },
+  "nvim-autopairs": { "branch": "master", "commit": "b464658e9b880f463b9f7e6ccddd93fb0013f559" },
+  "nvim-lspconfig": { "branch": "master", "commit": "064221eed39e7dc81cf1d27c0d016f4b29a9aad1" },
+  "nvim-tree.lua": { "branch": "master", "commit": "c7639482a1598f4756798df1b2d72f79fe5bb34f" },
+  "nvim-treesitter": { "branch": "master", "commit": "28591731d84c2fc18ddda60e1d53da24c31c4987" },
+  "nvim-treesitter-textobjects": { "branch": "master", "commit": "ad8f0a472148c3e0ae9851e26a722ee4e29b1595" },
+  "nvim-ts-autotag": { "branch": "main", "commit": "e239a560f338be31337e7abc3ee42515daf23f5e" },
+  "nvim-web-devicons": { "branch": "master", "commit": "edbe0a65cfacbbfff6a4a1e98ddd60c28c560509" }
+}
