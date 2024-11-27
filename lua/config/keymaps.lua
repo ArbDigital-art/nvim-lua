@@ -4,4 +4,4 @@ local map = vim.keymap.set
 
 
 
-map('n', '<space>e', '<cmd>NvimTreeToggle<cr>')
+map('n', '<C-\\>', '<cmd>NvimTreeToggle<cr>')
