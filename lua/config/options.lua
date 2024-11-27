@@ -1,7 +1,7 @@
 -- lua/config/options.lua
 
 local opt = vim.o -- equivalente ao :set (vimscript)
-vim.g.mapçeader = " "
+vim.g.mapleader = "."
 vim.g.snippets  = "luasnip"
 
 
@@ -11,9 +11,9 @@ opt.mouse = on
 opt.number = true
 opt.relativenumber = true
 opt.cursorline = true
-opt.history = 100 
+opt.history = 100
 opt.synmaxcol = 240
-opt.encoding = utf8
+opt.encoding = utf_8
 opt.expandtab = true
 opt.tabstop=2
 opt.softtabstop=2
