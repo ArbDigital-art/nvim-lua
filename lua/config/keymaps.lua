@@ -21,3 +21,4 @@ map('n',  '<F4>', '<cmd>ToggleTerm direction=vertical<cr>',            { desc = 
 -- Telescope
 map('n',  '<leader>ff', ':Telescope find_files<cr>', { desc = 'Telescope Find Files' })
 map('n',  '<leader>ob', ':Telescope buffers<cr>',    { desc = 'Telescope: Show Opened Buffer' })
+map('n',  '<leader>?',  ':Telescope keymaps<cr>',    { desc = 'Telescope: Keymaps Help' })
