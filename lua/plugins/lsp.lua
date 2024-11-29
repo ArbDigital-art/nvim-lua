@@ -1,5 +1,9 @@
 -- lspconfig
--- 
+--
+--Enable (broadcasting) snippet capability for completion (css)
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities.textDocument.completion.completionItem.snippetSupport = true
+
 
 return {
   "neovim/nvim-lspconfig",
@@ -19,7 +23,6 @@ return {
       vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, opts)
       vim.keymap.set('n', 'gd', vim.lsp.buf.definition, opts)
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, opts)
-   -- vim.keymap.set('i', '<C-g>', vim.lsp.buf.hover, opts)
       vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, opts)
       vim.keymap.set('n', '<C-k>', vim.lsp.buf.signature_help, opts)
       vim.keymap.set('n', '<space>wa', vim.lsp.buf.add_workspace_folder, opts)
@@ -38,6 +41,26 @@ return {
 
 
     require("neodev").setup()
+
+    require'lspconfig'.cssls.setup ({
+      capabilities = capabilities,
+      settings = {
+       css = {
+       validate = true
+       },
+       less = {
+       validate = true
+        },
+       scss = {
+       validate = true
+       },
+       cssVariables = {
+        blacklistFolders = { "**/.cache", "**/.DS_Store", "**/.git", "**/.hg", "**/.next", "**/.svn", "**/bower_components", "**/CVS", "**/dist", "**/node_modules", "**/tests", "**/tmp" },
+        lookupFiles = { "**/*.less", "**/*.scss", "**/*.sass", "**/*.css" }
+       },
+      },
+    })
+
     require("lspconfig").lua_ls.setup({
       on_attach = on_attach,
       settings = {

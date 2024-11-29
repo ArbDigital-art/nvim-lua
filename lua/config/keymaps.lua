@@ -14,9 +14,9 @@ map('n', '<leader>vsp', ':vsp<cr>',      { desc = 'Vertical Split' })
 map('n', '<leader>vs',  ':sp<cr>',       { desc = 'Horizontal Split' })
 
 -- ToggleTerm
-map('n',  '<F3>', '<cmd>ToggleTerm<cr>',                               { desc = 'Toggle Horizontal Terminal' })
-map('n',  '<F2>', '<cmd>ToggleTerm direction=float name=Terminal<cr>', { desc = 'Toggle Float Terminal' })
-map('n',  '<F4>', '<cmd>ToggleTerm direction=vertical<cr>',            { desc = 'Toggle vertical Terminal' })
+map('t',  '<F3>', '<cmd>ToggleTerm<cr>',                               { desc = 'Toggle Horizontal Terminal' })
+map('t',  '<F2>', '<cmd>ToggleTerm direction=float name=Terminal<cr>', { desc = 'Toggle Float Terminal' })
+map('t',  '<F4>', '<cmd>ToggleTerm direction=vertical<cr>',            { desc = 'Toggle vertical Terminal' })
 
 -- Telescope
 map('n',  '<leader>ff', ':Telescope find_files<cr>', { desc = 'Telescope Find Files' })
