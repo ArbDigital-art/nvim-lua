@@ -9,9 +9,12 @@ map('n', '<C-n>',       '<cmd>NvimTreeToggle<cr>', { desc = 'NvimTreeToggle' })
 -- Nvim
 map('n', '<leader>cb',  '<cmd>:bd!<cr>', { desc = 'Close Current Buffer' })
 map('',  '<leader>rr',  ':source %<cr>', { desc = 'Source the current File' })
-map('n', '<C-p>',       ':bnext<cr>',    { desc = 'Go to Next Buffer' })
+map('n', '<leader>bn',  ':bnext<cr>',    { desc = 'Go to Next Buffer' })
 map('n', '<leader>vsp', ':vsp<cr>',      { desc = 'Vertical Split' })
 map('n', '<leader>vs',  ':sp<cr>',       { desc = 'Horizontal Split' })
+map('n', '<leader>tn',  ':tabnew<cr>',   { desc = 'New Tab' })
+map('n', '<leader>tp',  ':tabnext<cr>',  { desc = 'Next Tab' })
+
 
 -- ToggleTerm
 map('t',  '<F3>', '<cmd>ToggleTerm<cr>',                               { desc = 'Toggle Horizontal Terminal' })
